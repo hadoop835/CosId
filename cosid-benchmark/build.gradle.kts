@@ -29,7 +29,7 @@ repositories {
 
 dependencies {
     implementation("me.ahoo.cosid:cosid-jdbc:1.8.18")
-    testImplementation("com.zaxxer:HikariCP:3.4.5")
+    testImplementation("com.zaxxer:HikariCP:5.0.1")
     testImplementation("mysql:mysql-connector-java:8.0.29")
     /**
      * WARNING：中央仓库没有找到美团官方提供的Jar!!!
